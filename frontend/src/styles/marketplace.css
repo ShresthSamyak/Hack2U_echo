@@ -1,0 +1,62 @@
+/* Marketplace Page Styles */
+.marketplace-page {
+    min-height: 100vh;
+    padding: var(--space-8) 0;
+}
+
+.marketplace-header {
+    text-align: center;
+    margin-bottom: var(--space-12);
+}
+
+.marketplace-header h1 {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: var(--space-2);
+}
+
+.marketplace-header .subtitle {
+    font-size: var(--text-lg);
+    color: var(--text-secondary);
+}
+
+/* Category Filter */
+.category-filter {
+    display: flex;
+    gap: var(--space-3);
+    margin-bottom: var(--space-8);
+    overflow-x: auto;
+    padding-bottom: var(--space-2);
+}
+
+.category-btn {
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-medium);
+    background: white;
+    color: var(--text-secondary);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.category-btn:hover {
+    border-color: var(--accent-default);
+    color: var(--accent-default);
+}
+
+.category-btn.active {
+    background: var(--accent-default);
+    color: white;
+    border-color: var(--accent-default);
+}
+
+/* Loading Placeholder */
+.loading-placeholder {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: var(--space-12);
+    color: var(--text-secondary);
+}

@@ -1,0 +1,364 @@
+/* Product Detail Page Styles */
+.product-detail-page {
+    min-height: 100vh;
+    padding: var(--space-8) 0;
+}
+
+/* Product Info Panel (Left) */
+.product-info-panel {
+    padding: var(--space-6);
+}
+
+.image-gallery {
+    margin-bottom: var(--space-8);
+}
+
+.main-image-placeholder {
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-lg);
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-tertiary);
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+}
+
+.product-name {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+}
+
+.product-price {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--accent-default);
+}
+
+.features h3 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-3);
+}
+
+.features ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+}
+
+.features li::before {
+    content: '✓ ';
+    color: var(--accent-default);
+    font-weight: bold;
+    margin-right: var(--space-2);
+}
+
+/* Assistant Panel (Right) */
+.assistant-panel {
+    background: white;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+    position: sticky;
+    top: var(--space-8);
+}
+
+.assistant-header {
+    padding: var(--space-6);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.assistant-title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+}
+
+.assistant-title h2 {
+    font-size: var(--text-xl);
+    font-weight: var(--font-weight-semibold);
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--status-offline);
+}
+
+.status-dot.online {
+    background: var(--status-online);
+}
+
+/* Mode Tabs */
+.mode-tabs {
+    display: flex;
+    gap: var(--space-2);
+}
+
+.mode-tab {
+    flex: 1;
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-medium);
+    background: white;
+    color: var(--text-secondary);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    font-size: var(--text-sm);
+}
+
+.mode-tab:hover {
+    border-color: var(--accent-default);
+}
+
+.mode-tab.active {
+    background: var(--accent-default);
+    color: white;
+    border-color: var(--accent-default);
+}
+
+/* Chat Area */
+.chat-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.welcome-message {
+    text-align: center;
+    padding: var(--space-8);
+    color: var(--text-secondary);
+}
+
+/* Message Input */
+.message-input-container {
+    padding: var(--space-6);
+    border-top: 1px solid var(--border-light);
+    display: flex;
+    gap: var(--space-3);
+}
+
+.message-input {
+    flex: 1;
+    padding: var(--space-3) var(--space-4);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-medium);
+    font-size: var(--text-base);
+    outline: none;
+    transition: all var(--transition-fast);
+}
+
+.message-input:focus {
+    border-color: var(--accent-default);
+}
+
+.btn-send {
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-lg);
+    background: var(--accent-default);
+    color: white;
+    border: none;
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.btn-send:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+.btn-send:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Image Upload Components */
+.input-area-wrapper {
+    padding: var(--space-6);
+    border-top: 1px solid var(--border-light);
+}
+
+.btn-camera {
+    background: transparent;
+    border: none;
+    padding: var(--space-3);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-camera:hover {
+    background: var(--bg-secondary);
+    color: var(--accent-default);
+}
+
+.btn-camera:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.image-preview-container {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    padding: var(--space-3);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-3);
+}
+
+.preview-thumbnail {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-light);
+}
+
+.preview-filename {
+    flex: 1;
+    font-size: var(--text-sm);
+    color: var(--text-secondary);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.btn-remove-image {
+    background: transparent;
+    border: none;
+    padding: var(--space-2);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    color: var(--text-tertiary);
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-remove-image:hover {
+    background: var(--error-surface);
+    color: var(--error-default);
+}
+
+.upload-error {
+    padding: var(--space-3);
+    background: var(--error-surface);
+    color: var(--error-default);
+    border-radius: var(--radius-md);
+    font-size: var(--text-sm);
+    margin-bottom: var(--space-3);
+}
+
+/* Message Images in Chat */
+.message-image {
+    max-width: 200px;
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-2);
+    border: 1px solid var(--border-light);
+}
+
+/* Multi-Image Gallery Preview */
+.image-gallery-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    padding: var(--space-3);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--space-3);
+    align-items: center;
+}
+
+.preview-item {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    border: 2px solid var(--border-light);
+    transition: all var(--transition-fast);
+}
+
+.preview-item:hover {
+    border-color: var(--accent-default);
+    transform: scale(1.05);
+}
+
+.preview-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-remove-preview {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: var(--error-default);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: all var(--transition-fast);
+    box-shadow: var(--shadow-md);
+}
+
+.preview-item:hover .btn-remove-preview {
+    opacity: 1;
+}
+
+.btn-remove-preview:hover {
+    background: var(--error-dark);
+}
+
+.image-count {
+    font-size: var(--text-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-secondary);
+    padding: var(--space-2) var(--space-3);
+    background: white;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-light);
+}
+
+/* Mobile Responsive */
+@media (max-width: 968px) {
+    .assistant-panel {
+        position: relative;
+        height: auto;
+        min-height: 500px;
+    }
+
+    .preview-item {
+        width: 60px;
+        height: 60px;
+    }
+}
