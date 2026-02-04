@@ -1,0 +1,18 @@
+{
+  "chat": {
+    "title": "Ask About This Product",
+    "placeholder": "Type your question here...",
+    "send": "Send",
+    "thinking": "AI is thinking...",
+    "welcome": "Hi! How can I help you with this product?",
+    "uploadImage": "Upload Image",
+    "error": "Something went wrong. Please try again.",
+    "retry": "Retry",
+    "noMessages": "Start a conversation by asking a question!",
+    "switchLanguage": "Switch to Hindi"
+  },
+  "languages": {
+    "en": "English",
+    "hi": "हिंदी"
+  }
+}

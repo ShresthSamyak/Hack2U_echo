@@ -1,19 +1,20 @@
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from PIL import Image
 import io
 import base64
 from typing import Dict, Optional
 from config import settings
 
-# Configure Gemini
-genai.configure(api_key=settings.google_api_key)
+# Configure Gemini with new SDK
+client = genai.Client(api_key=settings.google_api_key)
 
 class RoomAnalyzer:
     """Analyze room images for product placement and color matching"""
     
     def __init__(self):
-        # Use Gemini Pro Vision for image analysis
-        self.vision_model = genai.GenerativeModel('gemini-1.5-flash')
+        # Model name for the new SDK
+        self.model_name = 'gemini-1.5-flash'
     
     async def _validate_image_relevance(self, image: Image.Image) -> Dict:
         """
@@ -44,7 +45,10 @@ Respond with ONLY one word:
 """
         
         try:
-            response = self.vision_model.generate_content([validation_prompt, image])
+            response = client.models.generate_content(
+                model=self.model_name,
+                contents=[validation_prompt, image]
+            )
             result = response.text.strip().upper()
             
             if "IRRELEVANT" in result:
@@ -128,7 +132,10 @@ Provide your analysis in a clear, structured format.
         disclaimer_note = "\n\n**IMPORTANT: All measurements and dimensions in this analysis are APPROXIMATE ESTIMATES based on visual assessment. Please verify actual measurements before making purchase decisions.**"
         
         try:
-            response = self.vision_model.generate_content([analysis_prompt, image])
+            response = client.models.generate_content(
+                model=self.model_name,
+                contents=[analysis_prompt, image]
+            )
             
             return {
                 "status": "success",
@@ -173,8 +180,10 @@ Be honest if multiple colors could work well.
 """
         
         try:
-            text_model = genai.GenerativeModel('gemini-pro')
-            response = text_model.generate_content(color_prompt)
+            response = client.models.generate_content(
+                model='gemini-1.5-flash',
+                contents=color_prompt
+            )
             
             return {
                 "status": "success",
@@ -226,8 +235,10 @@ Be conservative - if it's tight, warn the user.
 """
         
         try:
-            text_model = genai.GenerativeModel('gemini-pro')
-            response = text_model.generate_content(fit_prompt)
+            response = client.models.generate_content(
+                model='gemini-1.5-flash',
+                contents=fit_prompt
+            )
             
             return {
                 "status": "success",
