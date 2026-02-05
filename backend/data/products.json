@@ -1,0 +1,1088 @@
+{
+    "washing_machines": [
+        {
+            "product_id": "wm_2026_pro",
+            "category": "washing_machine",
+            "brand": "AquaTech",
+            "name": "AquaTech Pro 9000",
+            "models": [
+                {
+                    "model_id": "AT-WM-9KG-BLACK",
+                    "capacity": "9kg",
+                    "color": "Matte Black",
+                    "hex_color": "#1a1a1a",
+                    "dimensions_cm": [
+                        85,
+                        60,
+                        60
+                    ],
+                    "weight_kg": 65,
+                    "energy_rating": "A++",
+                    "noise_db": 52,
+                    "price": 420,
+                    "currency": "USD",
+                    "warranty_years": 2,
+                    "features": [
+                        "inverter motor",
+                        "steam wash",
+                        "wifi connectivity",
+                        "auto detergent dispenser"
+                    ],
+                    "installation": "Requires water inlet, drainage, and 220V power outlet. Clearance: 10cm sides, 15cm back.",
+                    "common_issues": [
+                        {
+                            "error": "E01",
+                            "meaning": "Door not closed",
+                            "fix": "Ensure door is firmly shut and latch clicks"
+                        },
+                        {
+                            "error": "E02",
+                            "meaning": "Water inlet problem",
+                            "fix": "Check water supply tap is open and hose not kinked"
+                        }
+                    ],
+                    "maintenance": "Clean filter monthly, descale every 3 months, wipe rubber seal after use",
+                    "manual": {
+                        "overview": "Front-load automatic washing machine for household use with 9kg capacity, inverter motor technology, and smart connectivity features.",
+                        "installation_steps": [
+                            "Place on flat, stable surface",
+                            "Remove transport bolts from rear (4 bolts)",
+                            "Connect water inlet hose to cold water tap",
+                            "Connect drain hose to drainage pipe or sink",
+                            "Plug into grounded 220V power outlet",
+                            "Run test cycle without laundry"
+                        ],
+                        "first_time_use": [
+                            "Run empty rinse cycle at 90°C to clean drum",
+                            "Check for any leaks during first cycle",
+                            "Review all wash programs in manual"
+                        ],
+                        "daily_usage": [
+                            "Do not overload beyond 9kg capacity",
+                            "Use HE (High Efficiency) detergent only",
+                            "Sort laundry by color and fabric type",
+                            "Leave door slightly open after wash to prevent odor"
+                        ],
+                        "safety_guidelines": [
+                            "Keep children away from machine during operation",
+                            "Do not touch power plug with wet hands",
+                            "Turn off power before cleaning or maintenance",
+                            "Do not wash items with gasoline or flammable substances"
+                        ],
+                        "do_not": [
+                            "Do not wash shoes or heavy items like mats",
+                            "Do not use hot water above 60°C regularly",
+                            "Do not pull door open forcefully during cycle",
+                            "Do not use bleach in steam wash mode"
+                        ],
+                        "environmental_conditions": "Operating temperature: 5°C to 40°C. Avoid direct sunlight and moisture.",
+                        "storage": "If storing unused, keep door slightly open and disconnect power"
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Clean lint filter (monthly)",
+                            "Clear drain hose blockage",
+                            "Rebalance drum if vibrating",
+                            "Clean detergent dispenser"
+                        ],
+                        "service_required": [
+                            "Motor failure or unusual grinding noise",
+                            "PCB or control panel failure",
+                            "Water leakage inside body",
+                            "Door lock mechanism broken",
+                            "Heating element failure"
+                        ],
+                        "spare_parts_available": [
+                            "Drain hose",
+                            "Inlet hose",
+                            "Lint filter",
+                            "Detergent dispenser tray"
+                        ],
+                        "voids_warranty_if": [
+                            "Opened control panel or motor housing",
+                            "Used industrial or non-HE detergent causing damage",
+                            "Physical damage from mishandling",
+                            "Water damage from improper installation"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Inverter motor (5 years)",
+                            "Control board (2 years)",
+                            "Drum and cabinet (2 years)",
+                            "Manufacturing defects"
+                        ],
+                        "not_covered": [
+                            "Normal wear and tear",
+                            "Blocked filter or drain",
+                            "Damage from power surges",
+                            "Cosmetic scratches"
+                        ],
+                        "claim_process": [
+                            "Provide original invoice",
+                            "Provide model and serial number",
+                            "Contact service center for diagnosis",
+                            "Authorized technician will visit within 48 hours"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-1122",
+                            "email": "support@aquatech.com",
+                            "hours": "Mon–Sat 9AM–7PM"
+                        }
+                    }
+                },
+                {
+                    "model_id": "AT-WM-9KG-WHITE",
+                    "capacity": "9kg",
+                    "color": "Pearl White",
+                    "hex_color": "#f5f5f5",
+                    "dimensions_cm": [
+                        85,
+                        60,
+                        60
+                    ],
+                    "weight_kg": 65,
+                    "energy_rating": "A++",
+                    "noise_db": 52,
+                    "price": 420,
+                    "currency": "USD",
+                    "warranty_years": 2,
+                    "features": [
+                        "inverter motor",
+                        "steam wash",
+                        "wifi connectivity",
+                        "auto detergent dispenser"
+                    ],
+                    "installation": "Requires water inlet, drainage, and 220V power outlet. Clearance: 10cm sides, 15cm back.",
+                    "common_issues": [
+                        {
+                            "error": "E01",
+                            "meaning": "Door not closed",
+                            "fix": "Ensure door is firmly shut and latch clicks"
+                        },
+                        {
+                            "error": "E02",
+                            "meaning": "Water inlet problem",
+                            "fix": "Check water supply tap is open and hose not kinked"
+                        }
+                    ],
+                    "maintenance": "Clean filter monthly, descale every 3 months, wipe rubber seal after use",
+                    "manual": {
+                        "overview": "Front-load automatic washing machine for household use with 9kg capacity, inverter motor technology, and smart connectivity features.",
+                        "installation_steps": [
+                            "Place on flat, stable surface",
+                            "Remove transport bolts from rear (4 bolts)",
+                            "Connect water inlet hose to cold water tap",
+                            "Connect drain hose to drainage pipe or sink",
+                            "Plug into grounded 220V power outlet",
+                            "Run test cycle without laundry"
+                        ],
+                        "first_time_use": [
+                            "Run empty rinse cycle at 90°C to clean drum",
+                            "Check for any leaks during first cycle",
+                            "Review all wash programs in manual"
+                        ],
+                        "daily_usage": [
+                            "Do not overload beyond 9kg capacity",
+                            "Use HE (High Efficiency) detergent only",
+                            "Sort laundry by color and fabric type",
+                            "Leave door slightly open after wash to prevent odor"
+                        ],
+                        "safety_guidelines": [
+                            "Keep children away from machine during operation",
+                            "Do not touch power plug with wet hands",
+                            "Turn off power before cleaning or maintenance",
+                            "Do not wash items with gasoline or flammable substances"
+                        ],
+                        "do_not": [
+                            "Do not wash shoes or heavy items like mats",
+                            "Do not use hot water above 60°C regularly",
+                            "Do not pull door open forcefully during cycle",
+                            "Do not use bleach in steam wash mode"
+                        ],
+                        "environmental_conditions": "Operating temperature: 5°C to 40°C. Avoid direct sunlight and moisture.",
+                        "storage": "If storing unused, keep door slightly open and disconnect power"
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Clean lint filter (monthly)",
+                            "Clear drain hose blockage",
+                            "Rebalance drum if vibrating",
+                            "Clean detergent dispenser"
+                        ],
+                        "service_required": [
+                            "Motor failure or unusual grinding noise",
+                            "PCB or control panel failure",
+                            "Water leakage inside body",
+                            "Door lock mechanism broken",
+                            "Heating element failure"
+                        ],
+                        "spare_parts_available": [
+                            "Drain hose",
+                            "Inlet hose",
+                            "Lint filter",
+                            "Detergent dispenser tray"
+                        ],
+                        "voids_warranty_if": [
+                            "Opened control panel or motor housing",
+                            "Used industrial or non-HE detergent causing damage",
+                            "Physical damage from mishandling",
+                            "Water damage from improper installation"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Inverter motor (5 years)",
+                            "Control board (2 years)",
+                            "Drum and cabinet (2 years)",
+                            "Manufacturing defects"
+                        ],
+                        "not_covered": [
+                            "Normal wear and tear",
+                            "Blocked filter or drain",
+                            "Damage from power surges",
+                            "Cosmetic scratches"
+                        ],
+                        "claim_process": [
+                            "Provide original invoice",
+                            "Provide model and serial number",
+                            "Contact service center for diagnosis",
+                            "Authorized technician will visit within 48 hours"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-1122",
+                            "email": "support@aquatech.com",
+                            "hours": "Mon–Sat 9AM–7PM"
+                        }
+                    }
+                },
+                {
+                    "model_id": "AT-WM-9KG-SILVER",
+                    "capacity": "9kg",
+                    "color": "Brushed Silver",
+                    "hex_color": "#c0c0c0",
+                    "dimensions_cm": [
+                        85,
+                        60,
+                        60
+                    ],
+                    "weight_kg": 65,
+                    "energy_rating": "A++",
+                    "noise_db": 52,
+                    "price": 450,
+                    "currency": "USD",
+                    "warranty_years": 2,
+                    "features": [
+                        "inverter motor",
+                        "steam wash",
+                        "wifi connectivity",
+                        "auto detergent dispenser"
+                    ],
+                    "installation": "Requires water inlet, drainage, and 220V power outlet. Clearance: 10cm sides, 15cm back.",
+                    "common_issues": [
+                        {
+                            "error": "E01",
+                            "meaning": "Door not closed",
+                            "fix": "Ensure door is firmly shut and latch clicks"
+                        },
+                        {
+                            "error": "E02",
+                            "meaning": "Water inlet problem",
+                            "fix": "Check water supply tap is open and hose not kinked"
+                        }
+                    ],
+                    "maintenance": "Clean filter monthly, descale every 3 months, wipe rubber seal after use",
+                    "manual": {
+                        "overview": "Front-load automatic washing machine for household use with 9kg capacity, inverter motor technology, and smart connectivity features.",
+                        "installation_steps": [
+                            "Place on flat, stable surface",
+                            "Remove transport bolts from rear (4 bolts)",
+                            "Connect water inlet hose to cold water tap",
+                            "Connect drain hose to drainage pipe or sink",
+                            "Plug into grounded 220V power outlet",
+                            "Run test cycle without laundry"
+                        ],
+                        "first_time_use": [
+                            "Run empty rinse cycle at 90°C to clean drum",
+                            "Check for any leaks during first cycle",
+                            "Review all wash programs in manual"
+                        ],
+                        "daily_usage": [
+                            "Do not overload beyond 9kg capacity",
+                            "Use HE (High Efficiency) detergent only",
+                            "Sort laundry by color and fabric type",
+                            "Leave door slightly open after wash to prevent odor"
+                        ],
+                        "safety_guidelines": [
+                            "Keep children away from machine during operation",
+                            "Do not touch power plug with wet hands",
+                            "Turn off power before cleaning or maintenance",
+                            "Do not wash items with gasoline or flammable substances"
+                        ],
+                        "do_not": [
+                            "Do not wash shoes or heavy items like mats",
+                            "Do not use hot water above 60°C regularly",
+                            "Do not pull door open forcefully during cycle",
+                            "Do not use bleach in steam wash mode"
+                        ],
+                        "environmental_conditions": "Operating temperature: 5°C to 40°C. Avoid direct sunlight and moisture.",
+                        "storage": "If storing unused, keep door slightly open and disconnect power"
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Clean lint filter (monthly)",
+                            "Clear drain hose blockage",
+                            "Rebalance drum if vibrating",
+                            "Clean detergent dispenser"
+                        ],
+                        "service_required": [
+                            "Motor failure or unusual grinding noise",
+                            "PCB or control panel failure",
+                            "Water leakage inside body",
+                            "Door lock mechanism broken",
+                            "Heating element failure"
+                        ],
+                        "spare_parts_available": [
+                            "Drain hose",
+                            "Inlet hose",
+                            "Lint filter",
+                            "Detergent dispenser tray"
+                        ],
+                        "voids_warranty_if": [
+                            "Opened control panel or motor housing",
+                            "Used industrial or non-HE detergent causing damage",
+                            "Physical damage from mishandling",
+                            "Water damage from improper installation"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Inverter motor (5 years)",
+                            "Control board (2 years)",
+                            "Drum and cabinet (2 years)",
+                            "Manufacturing defects"
+                        ],
+                        "not_covered": [
+                            "Normal wear and tear",
+                            "Blocked filter or drain",
+                            "Damage from power surges",
+                            "Cosmetic scratches"
+                        ],
+                        "claim_process": [
+                            "Provide original invoice",
+                            "Provide model and serial number",
+                            "Contact service center for diagnosis",
+                            "Authorized technician will visit within 48 hours"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-1122",
+                            "email": "support@aquatech.com",
+                            "hours": "Mon–Sat 9AM–7PM"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "refrigerators": [
+        {
+            "product_id": "fridge_frost_free_2026",
+            "category": "refrigerator",
+            "brand": "CoolMax",
+            "name": "CoolMax FrostFree 360",
+            "models": [
+                {
+                    "model_id": "CM-FF-360-BLACK",
+                    "capacity": "360L",
+                    "color": "Matte Black",
+                    "hex_color": "#1a1a1a",
+                    "dimensions_cm": [
+                        180,
+                        70,
+                        75
+                    ],
+                    "weight_kg": 85,
+                    "energy_rating": "A+++",
+                    "noise_db": 38,
+                    "price": 650,
+                    "currency": "USD",
+                    "warranty_years": 3,
+                    "features": [
+                        "frost free",
+                        "inverter compressor",
+                        "digital temperature control",
+                        "LED lighting",
+                        "door alarm"
+                    ],
+                    "installation": "Requires 220V outlet. Clearance: 10cm sides, 15cm back for ventilation. Allow 24hrs before use.",
+                    "common_issues": [
+                        {
+                            "error": "Temp too warm",
+                            "meaning": "Temperature setting issue",
+                            "fix": "Set thermostat to 3-4°C for fridge, -18°C for freezer"
+                        },
+                        {
+                            "error": "Noise",
+                            "meaning": "Normal compressor cycling",
+                            "fix": "Normal operation. If excessive, ensure unit is level"
+                        }
+                    ],
+                    "maintenance": "Clean condenser coils every 6 months, check door seals quarterly",
+                    "manual": {
+                        "overview": "360L frost-free refrigerator with inverter compressor technology, digital temperature control, and energy-efficient cooling system for households.",
+                        "installation_steps": [
+                            "Remove all packaging and protective tape",
+                            "Place on level floor with clearance: 10cm sides, 15cm back, 10cm top",
+                            "Plug into dedicated 220V grounded outlet",
+                            "Wait 24 hours before loading food (allows coolant to settle)",
+                            "Set temperature: Fridge 3-4°C, Freezer -18°C",
+                            "Clean interior with mild soap before first use"
+                        ],
+                        "first_time_use": [
+                            "Allow 24 hours to reach optimal temperature",
+                            "Do not load perishables until temperature stabilizes",
+                            "Test door seal by closing on paper - should hold firmly"
+                        ],
+                        "daily_usage": [
+                            "Do not overload shelves",
+                            "Keep door closed as much as possible",
+                            "Allow hot food to cool before storing",
+                            "Clean spills immediately to prevent odor"
+                        ],
+                        "safety_guidelines": [
+                            "Do not store flammable liquids",
+                            "Keep ventilation grilles clear",
+                            "Do not use sharp objects to remove frost",
+                            "Unplug before cleaning"
+                        ],
+                        "do_not": [
+                            "Do not use extension cords",
+                            "Do not store glass bottles in freezer",
+                            "Do not wash with water directly on electrical parts",
+                            "Do not block air vents inside"
+                        ],
+                        "environmental_conditions": "Operating temperature: 10°C to 43°C ambient. Avoid direct sunlight.",
+                        "storage": "If unused, clean, dry, and leave door slightly open"
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Clean door seals with warm water",
+                            "Adjust temperature settings",
+                            "Clean condenser coils (rear)",
+                            "Replace burnt light bulb"
+                        ],
+                        "service_required": [
+                            "Compressor failure",
+                            "Refrigerant leak",
+                            "Thermostat malfunction",
+                            "Cooling system failure",
+                            "Electrical issues"
+                        ],
+                        "spare_parts_available": [
+                            "Door shelves",
+                            "Vegetable crisper drawer",
+                            "Ice tray",
+                            "LED light bulb"
+                        ],
+                        "voids_warranty_if": [
+                            "Tampered with refrigerant system",
+                            "Opened compressor housing",
+                            "Power surge damage without surge protector",
+                            "Physical damage from misuse"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Compressor (10 years)",
+                            "Cooling system (5 years)",
+                            "Electronic parts (3 years)",
+                            "Manufacturing defects"
+                        ],
+                        "not_covered": [
+                            "Normal wear and tear",
+                            "Light bulb replacement",
+                            "Door seal wear",
+                            "Cosmetic damage"
+                        ],
+                        "claim_process": [
+                            "Provide purchase invoice",
+                            "Provide model and serial number (inside fridge)",
+                            "Call service center",
+                            "Technician visit within 24-48 hours"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-3344",
+                            "email": "support@coolmax.com",
+                            "hours": "Mon–Sun 8AM–8PM"
+                        }
+                    }
+                },
+                {
+                    "model_id": "CM-FF-360-STEEL",
+                    "capacity": "360L",
+                    "color": "Stainless Steel",
+                    "hex_color": "#b8b8b8",
+                    "dimensions_cm": [
+                        180,
+                        70,
+                        75
+                    ],
+                    "weight_kg": 85,
+                    "energy_rating": "A+++",
+                    "noise_db": 38,
+                    "price": 680,
+                    "currency": "USD",
+                    "warranty_years": 3,
+                    "features": [
+                        "frost free",
+                        "inverter compressor",
+                        "digital temperature control",
+                        "LED lighting",
+                        "door alarm"
+                    ],
+                    "installation": "Requires 220V outlet. Clearance: 10cm sides, 15cm back for ventilation. Allow 24hrs before use.",
+                    "common_issues": [
+                        {
+                            "error": "Temp too warm",
+                            "meaning": "Temperature setting issue",
+                            "fix": "Set thermostat to 3-4°C for fridge, -18°C for freezer"
+                        },
+                        {
+                            "error": "Noise",
+                            "meaning": "Normal compressor cycling",
+                            "fix": "Normal operation. If excessive, ensure unit is level"
+                        }
+                    ],
+                    "maintenance": "Clean condenser coils every 6 months, check door seals quarterly",
+                    "manual": {
+                        "overview": "360L frost-free refrigerator with inverter compressor technology, digital temperature control, and energy-efficient cooling system for households.",
+                        "installation_steps": [
+                            "Remove all packaging and protective tape",
+                            "Place on level floor with clearance: 10cm sides, 15cm back, 10cm top",
+                            "Plug into dedicated 220V grounded outlet",
+                            "Wait 24 hours before loading food (allows coolant to settle)",
+                            "Set temperature: Fridge 3-4°C, Freezer -18°C",
+                            "Clean interior with mild soap before first use"
+                        ],
+                        "first_time_use": [
+                            "Allow 24 hours to reach optimal temperature",
+                            "Do not load perishables until temperature stabilizes",
+                            "Test door seal by closing on paper - should hold firmly"
+                        ],
+                        "daily_usage": [
+                            "Do not overload shelves",
+                            "Keep door closed as much as possible",
+                            "Allow hot food to cool before storing",
+                            "Clean spills immediately to prevent odor"
+                        ],
+                        "safety_guidelines": [
+                            "Do not store flammable liquids",
+                            "Keep ventilation grilles clear",
+                            "Do not use sharp objects to remove frost",
+                            "Unplug before cleaning"
+                        ],
+                        "do_not": [
+                            "Do not use extension cords",
+                            "Do not store glass bottles in freezer",
+                            "Do not wash with water directly on electrical parts",
+                            "Do not block air vents inside"
+                        ],
+                        "environmental_conditions": "Operating temperature: 10°C to 43°C ambient. Avoid direct sunlight.",
+                        "storage": "If unused, clean, dry, and leave door slightly open"
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Clean door seals with warm water",
+                            "Adjust temperature settings",
+                            "Clean condenser coils (rear)",
+                            "Replace burnt light bulb"
+                        ],
+                        "service_required": [
+                            "Compressor failure",
+                            "Refrigerant leak",
+                            "Thermostat malfunction",
+                            "Cooling system failure",
+                            "Electrical issues"
+                        ],
+                        "spare_parts_available": [
+                            "Door shelves",
+                            "Vegetable crisper drawer",
+                            "Ice tray",
+                            "LED light bulb"
+                        ],
+                        "voids_warranty_if": [
+                            "Tampered with refrigerant system",
+                            "Opened compressor housing",
+                            "Power surge damage without surge protector",
+                            "Physical damage from misuse"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Compressor (10 years)",
+                            "Cooling system (5 years)",
+                            "Electronic parts (3 years)",
+                            "Manufacturing defects"
+                        ],
+                        "not_covered": [
+                            "Normal wear and tear",
+                            "Light bulb replacement",
+                            "Door seal wear",
+                            "Cosmetic damage"
+                        ],
+                        "claim_process": [
+                            "Provide purchase invoice",
+                            "Provide model and serial number (inside fridge)",
+                            "Call service center",
+                            "Technician visit within 24-48 hours"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-3344",
+                            "email": "support@coolmax.com",
+                            "hours": "Mon–Sun 8AM–8PM"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "headphones": [
+        {
+            "product_id": "hp_anc_2026",
+            "category": "headphones",
+            "brand": "SoundPro",
+            "name": "SoundPro ANC Elite",
+            "models": [
+                {
+                    "model_id": "SP-ANC-BLACK",
+                    "color": "Midnight Black",
+                    "hex_color": "#0d0d0d",
+                    "type": "over-ear",
+                    "battery_hours": 40,
+                    "price": 280,
+                    "currency": "USD",
+                    "warranty_years": 1,
+                    "features": [
+                        "active noise cancellation",
+                        "bluetooth 5.2",
+                        "multipoint connection",
+                        "40hr battery",
+                        "fast charge"
+                    ],
+                    "installation": "Charge fully before first use. Pair via Bluetooth settings.",
+                    "common_issues": [
+                        {
+                            "error": "Won't pair",
+                            "meaning": "Bluetooth connection issue",
+                            "fix": "Hold power button 5s until LED blinks blue/red. Remove from device list and re-pair"
+                        },
+                        {
+                            "error": "Low volume",
+                            "meaning": "Volume limiter or eq issue",
+                            "fix": "Check both device and headphone volume. Disable any limiters in settings"
+                        }
+                    ],
+                    "maintenance": "Clean earpads with damp cloth monthly. Store in case when not in use",
+                    "manual": {
+                        "overview": "Premium over-ear wireless headphones with active noise cancellation, 40-hour battery life, and multipoint Bluetooth connectivity.",
+                        "installation_steps": [
+                            "Charge fully using USB-C cable (2 hours)",
+                            "Turn on headphones (hold power button 3 seconds)",
+                            "Enable Bluetooth on your device",
+                            "Look for 'SoundPro ANC Elite' in Bluetooth list",
+                            "Select to pair",
+                            "LED will turn solid blue when connected"
+                        ],
+                        "first_time_use": [
+                            "Download SoundPro app for firmware updates",
+                            "Customize EQ settings in app",
+                            "Test ANC modes (ANC On, Ambient, ANC Off)",
+                            "Adjust headband for comfort"
+                        ],
+                        "daily_usage": [
+                            "Charge when battery drops below 20%",
+                            "Use carrying case for protection",
+                            "Clean earpads weekly with damp cloth",
+                            "Update firmware when available"
+                        ],
+                        "safety_guidelines": [
+                            "Do not use at excessive volume (hearing damage risk)",
+                            "Be aware of surroundings when using ANC",
+                            "Do not use while driving",
+                            "Keep away from water"
+                        ],
+                        "do_not": [
+                            "Do not fold forcefully",
+                            "Do not expose to rain or water",
+                            "Do not charge with non-certified cables",
+                            "Do not use damaged earpads"
+                        ],
+                        "environmental_conditions": "Operating temperature: -10°C to 45°C. Store in dry place.",
+                        "storage": "Store in case. Charge to 50% if storing for more than 1 month"
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Replace earpads (user-replaceable)",
+                            "Clean charging port with dry brush",
+                            "Reset headphones (hold power + volume down 10s)"
+                        ],
+                        "service_required": [
+                            "Battery degradation (won't charge)",
+                            "Driver speaker damage",
+                            "Headband structural break",
+                            "ANC malfunction",
+                            "Bluetooth module failure"
+                        ],
+                        "spare_parts_available": [
+                            "Replacement earpads",
+                            "Carrying case",
+                            "USB-C charging cable",
+                            "3.5mm audio cable"
+                        ],
+                        "voids_warranty_if": [
+                            "Opened housing",
+                            "Water damage",
+                            "Physical damage from drops",
+                            "Third-party battery replacement attempted"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Manufacturing defects",
+                            "Battery failure (within 1 year)",
+                            "Driver speaker defects",
+                            "Bluetooth connectivity issues"
+                        ],
+                        "not_covered": [
+                            "Normal battery wear (80% capacity after 500 cycles)",
+                            "Earpad wear",
+                            "Cosmetic scratches",
+                            "Cable damage"
+                        ],
+                        "claim_process": [
+                            "Provide purchase receipt",
+                            "Provide serial number (inside left earcup)",
+                            "Fill warranty claim form online",
+                            "Ship to service center (prepaid label provided)"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-7788",
+                            "email": "support@soundpro.com",
+                            "hours": "Mon–Fri 9AM–6PM"
+                        }
+                    }
+                },
+                {
+                    "model_id": "SP-ANC-SILVER",
+                    "color": "Arctic Silver",
+                    "hex_color": "#d4d4d4",
+                    "type": "over-ear",
+                    "battery_hours": 40,
+                    "price": 280,
+                    "currency": "USD",
+                    "warranty_years": 1,
+                    "features": [
+                        "active noise cancellation",
+                        "bluetooth 5.2",
+                        "multipoint connection",
+                        "40hr battery",
+                        "fast charge"
+                    ],
+                    "installation": "Charge fully before first use. Pair via Bluetooth settings.",
+                    "common_issues": [
+                        {
+                            "error": "Won't pair",
+                            "meaning": "Bluetooth connection issue",
+                            "fix": "Hold power button 5s until LED blinks blue/red. Remove from device list and re-pair"
+                        },
+                        {
+                            "error": "Low volume",
+                            "meaning": "Volume limiter or eq issue",
+                            "fix": "Check both device and headphone volume. Disable any limiters in settings"
+                        }
+                    ],
+                    "maintenance": "Clean earpads with damp cloth monthly. Store in case when not in use",
+                    "manual": {
+                        "overview": "Premium over-ear wireless headphones with active noise cancellation, 40-hour battery life, and multipoint Bluetooth connectivity.",
+                        "installation_steps": [
+                            "Charge fully using USB-C cable (2 hours)",
+                            "Turn on headphones (hold power button 3 seconds)",
+                            "Enable Bluetooth on your device",
+                            "Look for 'SoundPro ANC Elite' in Bluetooth list",
+                            "Select to pair",
+                            "LED will turn solid blue when connected"
+                        ],
+                        "first_time_use": [
+                            "Download SoundPro app for firmware updates",
+                            "Customize EQ settings in app",
+                            "Test ANC modes (ANC On, Ambient, ANC Off)",
+                            "Adjust headband for comfort"
+                        ],
+                        "daily_usage": [
+                            "Charge when battery drops below 20%",
+                            "Use carrying case for protection",
+                            "Clean earpads weekly with damp cloth",
+                            "Update firmware when available"
+                        ],
+                        "safety_guidelines": [
+                            "Do not use at excessive volume (hearing damage risk)",
+                            "Be aware of surroundings when using ANC",
+                            "Do not use while driving",
+                            "Keep away from water"
+                        ],
+                        "do_not": [
+                            "Do not fold forcefully",
+                            "Do not expose to rain or water",
+                            "Do not charge with non-certified cables",
+                            "Do not use damaged earpads"
+                        ],
+                        "environmental_conditions": "Operating temperature: -10°C to 45°C. Store in dry place.",
+                        "storage": "Store in case. Charge to 50% if storing for more than 1 month"
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Replace earpads (user-replaceable)",
+                            "Clean charging port with dry brush",
+                            "Reset headphones (hold power + volume down 10s)"
+                        ],
+                        "service_required": [
+                            "Battery degradation (won't charge)",
+                            "Driver speaker damage",
+                            "Headband structural break",
+                            "ANC malfunction",
+                            "Bluetooth module failure"
+                        ],
+                        "spare_parts_available": [
+                            "Replacement earpads",
+                            "Carrying case",
+                            "USB-C charging cable",
+                            "3.5mm audio cable"
+                        ],
+                        "voids_warranty_if": [
+                            "Opened housing",
+                            "Water damage",
+                            "Physical damage from drops",
+                            "Third-party battery replacement attempted"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Manufacturing defects",
+                            "Battery failure (within 1 year)",
+                            "Driver speaker defects",
+                            "Bluetooth connectivity issues"
+                        ],
+                        "not_covered": [
+                            "Normal battery wear (80% capacity after 500 cycles)",
+                            "Earpad wear",
+                            "Cosmetic scratches",
+                            "Cable damage"
+                        ],
+                        "claim_process": [
+                            "Provide purchase receipt",
+                            "Provide serial number (inside left earcup)",
+                            "Fill warranty claim form online",
+                            "Ship to service center (prepaid label provided)"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-7788",
+                            "email": "support@soundpro.com",
+                            "hours": "Mon–Fri 9AM–6PM"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "ev_batteries": [
+        {
+            "product_id": "ev_battery_lithium_2026",
+            "category": "ev_battery",
+            "brand": "VoltMax",
+            "name": "VoltMax Lithium Pro",
+            "models": [
+                {
+                    "model_id": "VM-LI-48V-100AH",
+                    "voltage": "48V",
+                    "capacity_ah": "100Ah",
+                    "weight_kg": 28,
+                    "dimensions_cm": [
+                        45,
+                        35,
+                        18
+                    ],
+                    "price": 850,
+                    "currency": "USD",
+                    "warranty_years": 5,
+                    "features": [
+                        "BMS protection",
+                        "fast charging",
+                        "temperature monitoring",
+                        "3000+ cycles"
+                    ],
+                    "installation": "DANGER: Professional installation required. High voltage system.",
+                    "common_issues": [
+                        {
+                            "error": "Not charging",
+                            "meaning": "Charger or BMS issue",
+                            "fix": "This requires a certified technician. Please do not attempt this."
+                        },
+                        {
+                            "error": "Overheating",
+                            "meaning": "Thermal management issue",
+                            "fix": "This requires a certified technician. Please do not attempt this."
+                        }
+                    ],
+                    "maintenance": "Professional inspection annually. Never open battery case.",
+                    "manual": {
+                        "overview": "High-performance 48V 100Ah lithium battery for electric vehicles and energy storage systems with integrated BMS protection.",
+                        "installation_steps": [
+                            "DANGER: Hire certified technician only",
+                            "Turn off vehicle main power",
+                            "Disconnect existing battery safely",
+                            "Mount battery using vibration-resistant brackets",
+                            "Connect terminals with insulated tools (red positive, black negative)",
+                            "Verify polarity before powering on",
+                            "Power system and check BMS status indicator"
+                        ],
+                        "first_time_use": [
+                            "Charge battery to 100% before first use",
+                            "Allow battery to rest for 30 minutes after first charge",
+                            "Perform low-speed test drive",
+                            "Monitor temperature during first 5 charge cycles"
+                        ],
+                        "daily_usage": [
+                            "Avoid discharging below 20%",
+                            "Avoid charging above 95% regularly (for longevity)",
+                            "Monitor temperature using BMS app if available",
+                            "Charge at moderate rate (not fast charge) when possible"
+                        ],
+                        "safety_guidelines": [
+                            "DANGER: High voltage - risk of electric shock",
+                            "Never expose to water or rain",
+                            "Never short-circuit terminals",
+                            "Keep away from flammable materials",
+                            "Use only approved chargers",
+                            "Do not open casing under any circumstances"
+                        ],
+                        "do_not": [
+                            "Do not drop or impact",
+                            "Do not puncture or pierce",
+                            "Do not weld near battery",
+                            "Do not charge unattended overnight",
+                            "Do not use if swollen or damaged"
+                        ],
+                        "environmental_conditions": "Operating temperature: -10°C to 45°C. Storage temperature: 10°C to 30°C. Avoid extreme heat.",
+                        "storage": "Store at 40–60% charge if unused for more than 1 month. Store in cool, dry place."
+                    },
+                    "battery_health": {
+                        "degradation_model": {
+                            "year_1": "100% capacity",
+                            "year_2": "96%",
+                            "year_3": "92%",
+                            "year_4": "88%",
+                            "year_5": "85%",
+                            "after_3000_cycles": "80%"
+                        },
+                        "factors_affecting_decay": [
+                            "Fast charging frequency",
+                            "High temperature operation",
+                            "Deep discharge cycles (below 10%)",
+                            "Overcharging above 95%",
+                            "Extreme cold usage"
+                        ],
+                        "health_check_method": "Check capacity via BMS diagnostics or authorized service tool. Mobile app shows real-time health percentage."
+                    },
+                    "repair_policy": {
+                        "user_fixable": [
+                            "Loose external connectors (torque to 5Nm)",
+                            "Dirty terminals (clean with dry cloth only)"
+                        ],
+                        "service_required": [
+                            "BMS failure",
+                            "Cell imbalance",
+                            "Swelling or bulging",
+                            "Overheating",
+                            "Internal damage",
+                            "Capacity drop below 70% within warranty"
+                        ],
+                        "spare_parts_available": [
+                            "External terminal connectors",
+                            "Mounting brackets",
+                            "Communication cable (BMS to vehicle)"
+                        ],
+                        "voids_warranty_if": [
+                            "Battery casing opened",
+                            "Non-approved charger used",
+                            "Physical damage",
+                            "Water exposure",
+                            "Disassembly attempted"
+                        ]
+                    },
+                    "warranty_details": {
+                        "coverage": [
+                            "Manufacturing defects",
+                            "BMS failure",
+                            "Cell failure above 80% degradation threshold within 5 years",
+                            "Capacity warranty: 80% after 3000 cycles or 5 years"
+                        ],
+                        "not_covered": [
+                            "Normal capacity loss (gradual degradation)",
+                            "Accidental damage",
+                            "Improper installation",
+                            "Unauthorized repair",
+                            "Damage from non-approved chargers"
+                        ],
+                        "claim_process": [
+                            "Provide original invoice",
+                            "Provide battery serial number (on casing)",
+                            "Run BMS diagnostic report via app",
+                            "Submit report to service center",
+                            "Authorized technician will inspect"
+                        ],
+                        "service_center_contact": {
+                            "phone": "+1-800-555-8899",
+                            "email": "support@voltmax.com",
+                            "hours": "Mon–Sat 9AM–6PM"
+                        }
+                    },
+                    "troubleshooting_flow": [
+                        {
+                            "symptom": "Battery not charging",
+                            "check": [
+                                "Check charger output voltage (should match battery specs)",
+                                "Check terminal connections are tight",
+                                "Check BMS LED status (green = normal, red = fault)"
+                            ],
+                            "if_not_resolved": "STOP. Contact authorized service center immediately. Do not attempt further troubleshooting."
+                        },
+                        {
+                            "symptom": "Battery overheating (above 50°C)",
+                            "check": [
+                                "Turn off system immediately",
+                                "Allow battery to cool in ventilated area",
+                                "Check ventilation is not blocked"
+                            ],
+                            "if_not_resolved": "DANGER: Do not reuse. Call service center. Do not charge until inspected."
+                        },
+                        {
+                            "symptom": "Reduced range",
+                            "check": [
+                                "Check state of charge percentage",
+                                "Run BMS diagnostic in app",
+                                "Check for cell imbalance"
+                            ],
+                            "if_not_resolved": "Contact service center for capacity test and health assessment."
+                        }
+                    ],
+                    "lifecycle": {
+                        "expected_lifespan_years": 8,
+                        "expected_cycles": 3000,
+                        "performance_degradation": "Capacity reduces gradually after 3000 cycles. Expected 80% capacity at end of warranty.",
+                        "end_of_life_guidance": "Return to certified VoltMax recycling center. Do not dispose in household waste. Contains hazardous materials. Recycling is free for warranty customers."
+                    }
+                }
+            ]
+        }
+    ]
+}

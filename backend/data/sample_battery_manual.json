@@ -1,0 +1,132 @@
+{
+    "model_id": "VM-LI-48V-100AH",
+    "product_name": "VoltMax Lithium Battery",
+    "brand": "VoltMax",
+    "category": "ev_batteries",
+    "manual": {
+        "overview": "High-performance lithium battery for electric vehicles and energy storage systems with integrated BMS protection.",
+        "installation_steps": [
+            "Turn off vehicle main power",
+            "Disconnect existing battery safely",
+            "Mount battery using vibration-resistant brackets",
+            "Connect terminals with insulated tools",
+            "Verify polarity before powering on",
+            "Power system and check BMS status indicator"
+        ],
+        "first_time_use": [
+            "Charge battery to 100% before first use",
+            "Allow battery to rest for 30 minutes after first charge",
+            "Perform low-speed test drive"
+        ],
+        "daily_usage": [
+            "Avoid discharging below 20%",
+            "Avoid charging above 95% regularly",
+            "Monitor temperature using BMS app if available"
+        ],
+        "safety_guidelines": [
+            "Never expose to water or rain",
+            "Never short-circuit terminals",
+            "Keep away from flammable materials",
+            "Use only approved chargers",
+            "Do not open casing"
+        ],
+        "do_not": [
+            "Do not drop",
+            "Do not puncture",
+            "Do not weld near battery",
+            "Do not charge unattended overnight"
+        ],
+        "environmental_conditions": "Operating temperature: -10°C to 45°C. Storage temperature: 10°C to 30°C",
+        "storage": "Store at 40–60% charge if unused for more than 1 month."
+    },
+    "battery_health": {
+        "degradation_model": {
+            "year_1": "100% capacity",
+            "year_2": "96%",
+            "year_3": "92%",
+            "year_4": "88%",
+            "year_5": "85%",
+            "after_3000_cycles": "80%"
+        },
+        "factors_affecting_decay": [
+            "Fast charging frequency",
+            "High temperature operation",
+            "Deep discharge cycles",
+            "Overcharging"
+        ],
+        "health_check_method": "Check capacity via BMS diagnostics or service tool"
+    },
+    "repair_policy": {
+        "user_fixable": [
+            "Loose external connectors",
+            "Dirty terminals (clean with dry cloth)"
+        ],
+        "service_required": [
+            "BMS failure",
+            "Cell imbalance",
+            "Swelling",
+            "Overheating",
+            "Internal damage"
+        ],
+        "spare_parts_available": [
+            "External terminal connectors",
+            "Mounting brackets",
+            "Communication cable"
+        ],
+        "voids_warranty_if": [
+            "Battery casing opened",
+            "Non-approved charger used",
+            "Physical damage",
+            "Water exposure"
+        ]
+    },
+    "warranty_details": {
+        "coverage": [
+            "Manufacturing defects",
+            "BMS failure",
+            "Cell failure above 80% degradation threshold within 5 years"
+        ],
+        "not_covered": [
+            "Normal capacity loss",
+            "Accidental damage",
+            "Improper installation",
+            "Unauthorized repair"
+        ],
+        "claim_process": [
+            "Provide invoice",
+            "Provide battery serial number",
+            "Run diagnostic report",
+            "Submit to service center"
+        ],
+        "service_center_contact": {
+            "phone": "+1-800-555-8899",
+            "email": "support@voltmax.com",
+            "hours": "Mon–Sat 9AM–6PM"
+        }
+    },
+    "troubleshooting_flow": [
+        {
+            "symptom": "Battery not charging",
+            "check": [
+                "Check charger output",
+                "Check terminal connections",
+                "Check BMS LED status"
+            ],
+            "if_not_resolved": "Contact authorized service center immediately"
+        },
+        {
+            "symptom": "Battery overheating",
+            "check": [
+                "Turn off system",
+                "Allow battery to cool",
+                "Check ventilation"
+            ],
+            "if_not_resolved": "Do not reuse. Call service center."
+        }
+    ],
+    "lifecycle": {
+        "expected_lifespan_years": 8,
+        "performance_degradation": "Capacity reduces gradually after 3000 cycles",
+        "end_of_life_guidance": "Return to certified recycling center. Do not dispose in household waste."
+    }
+}

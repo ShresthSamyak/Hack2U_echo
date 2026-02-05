@@ -1,0 +1,28 @@
+# Add this new endpoint after the existing ones in main.py
+
+@app.get("/conversations/list")
+async def list_conversations(
+    user_id: str,
+    model_id: Optional[str] = None,
+    mode: Optional[str] = None
+):
+    """
+    List conversations for a user, optionally filtered by product and mode
+    
+    Args:
+        user_id: User ID from authentication
+        model_id: Optional filter by specific product model
+        mode: Optional filter by PRE_PURCHASE or POST_PURCHASE
+    
+    Returns:
+        List of conversations with metadata
+    """
+    try:
+        conversations = db.list_conversations(
+            user_id=user_id,
+            model_id=model_id,
+            mode=mode
+        )
+        return {"conversations": conversations}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
