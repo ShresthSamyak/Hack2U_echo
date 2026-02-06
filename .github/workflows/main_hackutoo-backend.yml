@@ -59,14 +59,6 @@ jobs:
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_E17BA456909B4359BC0184B34C338F0B }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_6FDD3D22B41B4E3A8DBDD757E96E0BA9 }}
 
-      - name: Disable Oryx build
-        run: |
-          az webapp config appsettings set --name hackutoo-backend --resource-group hackutoo --settings SCM_DO_BUILD_DURING_DEPLOYMENT=false
-      
-      - name: Set startup command
-        run: |
-          az webapp config set --name hackutoo-backend --resource-group hackutoo --startup-file "bash startup.sh"
-
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
