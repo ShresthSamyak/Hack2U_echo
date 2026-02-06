@@ -73,5 +73,3 @@ jobs:
         with:
           app-name: 'hackutoo-backend'
           slot-name: 'Production'
-          package: '.'
-          startup-command: 'bash startup.sh'
