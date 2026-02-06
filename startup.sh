@@ -1,8 +1,14 @@
 #!/bin/bash
-cd backend
+set -e
 
-# Install dependencies if not already installed
-pip install -r ../requirements.txt --user --quiet --no-warn-script-location
+# Activate Azure's Python virtual environment
+source /home/site/wwwroot/antenv/bin/activate
+
+# Navigate to backend
+cd /home/site/wwwroot/backend
+
+# Install dependencies
+pip install -r ../requirements.txt --quiet
 
 # Start the app
-python -m gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000
