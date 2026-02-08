@@ -6,16 +6,10 @@ httpx
 requests==2.31.0
 pillow==10.2.0
 pydantic~=1.10
+pydantic-settings==2.1.0
 python-dotenv==1.0.0
-
-# Optional: Only needed if using Gemini
 google-generativeai==0.3.2
-
-# Vector Database (Pinecone)
 pinecone-client==3.0.0
-
-# FREE Local Embeddings (no API needed!)
 sentence-transformers==2.3.1
-
-# Supabase (PostgreSQL database)
 supabase>=2.12
+groq
